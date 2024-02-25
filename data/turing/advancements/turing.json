@@ -1,10 +1,10 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:command_block_minecart"
 		},
 		"title": "TuringMC",
-		"description": "Minecraft DataPack",
+		"description": "Turing library for Minecraft, adding functions from classic programming languages to Minecraft.",
 		"show_toast": false,
 		"announce_to_chat": false
 	},
