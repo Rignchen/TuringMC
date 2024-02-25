@@ -1,3 +1,3 @@
 @echo off
-zip -i "pack.mcmeta", "data", "LICENSE.md", "README.md" -e "__pycache__"
+zip -i "pack.mcmeta", "data", "LICENSE", "README" -e "__pycache__", "data\turing\functions\test"
 exit /b
