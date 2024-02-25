@@ -1,4 +1,4 @@
-## function turing:_turing/loop/foreach
+## function turing:turing/loop/foreach/start
 
 execute store result storage turing:data temp.i int 1 run scoreboard players get #i turing.data
 function turing:turing/loop/foreach/call with storage turing:data temp

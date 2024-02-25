@@ -13,3 +13,7 @@ To use Turing Mc, you need to create another datapack, in this datapack, you can
 The `foreach` function is used to iterate through a list of elements.\
 Syntax: `function turing:_turing/loop/foreach.mcfunction {array: <list_values>, fn: <function_name>}`\
 Output: call the function you asked for as a macro with the current element called `item`
+- Foreach with Referece:\
+The `foreach_ref` function is used to iterate through a list of elements from the data of a block, entity or storage.\
+Syntax: `function turing:_turing/loop/foreach_ref.mcfunction {ref: <reference_to_data>, fn: <function_name>}`\
+Output: call the function you asked for as a macro with the current element called `item`
