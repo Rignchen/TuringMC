@@ -17,3 +17,8 @@ Output: call the function you asked for as a macro with the current element call
 The `foreach_ref` function is used to iterate through a list of elements from the data of a block, entity or storage.\
 Syntax: `function turing:_turing/loop/foreach_ref.mcfunction {ref: <reference_to_data>, fn: <function_name>}`\
 Output: call the function you asked for as a macro with the current element called `item`
+- For:\
+The `for` function is used to iterate through a range of numbers.\
+Syntax: `function turing:_turing/loop/for.mcfunction {start: <start_value>, end: <end_value>, step: <step_value>, var: <variable_name>, fn: <function_name>}`\
+Output: call the function you asked for with the number inside the score `<variable_name> turing.out`\
+Note: the start value is included but not the end value
