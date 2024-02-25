@@ -8,3 +8,8 @@ Turing Mc is a minecraft datapack that adds usual programming functions to minec
 
 ## Usage
 To use Turing Mc, you need to create another datapack, in this datapack, you can use the functions provided by Turing Mc while creating your datapack.
+
+- Foreach:\
+The `foreach` function is used to iterate through a list of elements.\
+Syntax: `function turing:_turing/loop/foreach.mcfunction {array: <list_values>, fn: <function_name>}`\
+Output: call the function you asked for as a macro with the current element called `item`
