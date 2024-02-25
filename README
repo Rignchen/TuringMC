@@ -22,3 +22,6 @@ The `for` function is used to iterate through a range of numbers.\
 Syntax: `function turing:_turing/loop/for.mcfunction {start: <start_value>, end: <end_value>, step: <step_value>, var: <variable_name>, fn: <function_name>}`\
 Output: call the function you asked for with the number inside the score `<variable_name> turing.out`\
 Note: the start value is included but not the end value
+- For Max:\
+The `for_max` function is an equivalent of the `for` function but with the start value set to 0 and the step value set to 1.\
+Syntax: `function turing:_turing/loop/for_max.mcfunction {max: <max_value>, var: <variable_name>, fn: <function_name>}`
