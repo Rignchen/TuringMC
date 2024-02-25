@@ -2,6 +2,7 @@
 
 #scoreboard
 scoreboard objectives add turing.data dummy
+scoreboard objectives add turing.out dummy
 
 #define
 #define entity @a[tag=convention.debug]
