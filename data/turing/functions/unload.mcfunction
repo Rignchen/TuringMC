@@ -1,7 +1,7 @@
 ## call by the player
 
 #storages
-data remove storage turing:data temp
+data remove storage turing:data _private
 data remove storage turing:data out
 
 #scoreboard

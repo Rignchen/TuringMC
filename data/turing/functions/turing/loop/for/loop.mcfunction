@@ -1,6 +1,6 @@
 ## function turing:_turing/loop/for
 
-function turing:turing/loop/for/call with storage turing:data temp
+function turing:turing/loop/for/call with storage turing:data _private.for
 
 scoreboard players operation #index turing.data += #step turing.data
 

@@ -1,6 +1,7 @@
 ## function turing:_turing/loop/foreach
+## function turing:_turing/loop/foreach
 
-execute store result score #len turing.data run data get storage turing:data temp.array
+execute store result score #len turing.data run data get storage turing:data _private.foreach.array
 
 execute if score #len turing.data matches 0 run return fail
 
