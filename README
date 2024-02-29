@@ -29,3 +29,15 @@ Syntax: `function turing:_turing/loop/for_max {max: <max_value>, var: <variable_
 The `while` function is used to iterate through a function until a condition isn't met anymore.\
 Syntax: `function turing:_turing/loop/while {while: <if/unless conditions> do: <function_name>}`\
 Output: call the function you asked for
+- Do While:\
+The `do_while` function is used to iterate through a function until a condition isn't met anymore but the function is called at least once.\
+Syntax: `function turing:_turing/loop/do_while {while: <if/unless conditions> do: <function_name>}`\
+Output: call the function you asked for
+- Until:\
+The `until` function is used to iterate through a function until a condition is met.\
+Syntax: `function turing:_turing/loop/until {until: <if/unless conditions> do: <function_name>}`\
+Output: call the function you asked for
+- Do Until:\
+The `do_until` function is used to iterate through a function until a condition is met but the function is called at least once.\
+Syntax: `function turing:_turing/loop/do_until {until: <if/unless conditions> do: <function_name>}`\
+Output: call the function you asked for

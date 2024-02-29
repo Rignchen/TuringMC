@@ -3,4 +3,4 @@
 
 $data modify storage turing:data _private.while set value {fn:"$(do)"}
 $data modify storage turing:data _private.condition set value "$(while)"
-function turing:turing/loop/while-like/while
+function turing:turing/loop/while-like/do_while
