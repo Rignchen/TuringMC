@@ -9,6 +9,7 @@ Turing Mc is a minecraft datapack that adds usual programming functions to minec
 ## Usage
 To use Turing Mc, you need to create another datapack, in this datapack, you can use the functions provided by Turing Mc while creating your datapack.
 
+### Loops
 - Foreach:\
 The `foreach` function is used to iterate through a list of elements.\
 Syntax: `function turing:_turing/loop/foreach {array: <list_values>, fn: <function_name>}`\
@@ -41,3 +42,9 @@ Output: call the function you asked for
 The `do_until` function is used to iterate through a function until a condition is met but the function is called at least once.\
 Syntax: `function turing:_turing/loop/do_until {until: <if/unless conditions> do: <function_name>}`\
 Output: call the function you asked for
+
+
+### Conditions
+- If-Else:\
+The `if_else` function is used to execute a function if a condition is met and another function if the condition isn't met.\
+Syntax: `function turing:_turing/condition/if_else {if: <if/unless conditions>, then: <function_name>, else: <function_name>}`
